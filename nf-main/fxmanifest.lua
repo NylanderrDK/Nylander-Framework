@@ -7,8 +7,12 @@ version "1.0.0"
 
 client_scripts {
     "cl-functions.lua"
+    "client/*.lua"
 }
 
 server_scripts {
-    "sv-functions.lua"
+    "sv-functions.lua",
+    "server/*.lua"
 }
+
+shared_script "config.lua"
